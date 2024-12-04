@@ -1,0 +1,48 @@
+.task-manager {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-input input {
+  width: 80%;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.task-input button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
